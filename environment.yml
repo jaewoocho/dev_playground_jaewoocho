@@ -1,0 +1,12 @@
+name: nbdev_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.7
+  - jupyter
+  - jupyterlab
+  - pandas
+  - pip
+  - pip:
+    - nbdev==1.2.10
